@@ -1,3 +1,7 @@
+--My Options
+vim.opt.tabstop = 4
+vim.opt.shiftwidth = 4
+
 --[[
 
 =====================================================================
@@ -228,7 +232,6 @@ vim.opt.rtp:prepend(lazypath)
 --
 -- NOTE: Here is where you install your plugins.
 require('lazy').setup({
-
   {
     'David-Kunz/gen.nvim',
     lazy = true,
